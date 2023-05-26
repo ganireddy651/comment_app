@@ -121,7 +121,7 @@ class Comments extends Component {
               commentDetails={each}
               onDeleteButtonClicked={this.onDeleteButtonClicked}
               onLikeClicked={this.onLikeClicked}
-              key={commentsList.id}
+              key={each.id}
             />
           ))}
         </ul>
