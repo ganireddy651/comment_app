@@ -74,9 +74,9 @@ class Comments extends Component {
 
     return (
       <div className="comments-app-container">
+        <h1 className="main-heading">Comments</h1>
         <div className="comments-top-section-container">
-          <div>
-            <h1 className="main-heading">Comments</h1>
+          <div className="input-field-container">
             <p className="para">Say something about 4.0 Technologies</p>
             <form onSubmit={this.onButtonClicked}>
               <input

@@ -78,3 +78,29 @@ body {
   list-style-type: none;
   padding-left: 0;
 }
+.image-container {
+  width: auto;
+}
+@media (max-width: 576px) {
+  .comments-top-section-container {
+    flex-direction: column;
+  }
+  .image-container {
+    order: 0;
+  }
+  .input-field-container {
+    order: 1;
+  }
+  .image {
+    width: 100%;
+  }
+  .comments-app-container {
+    padding: 20px;
+  }
+  .name-input {
+    width: 100%;
+  }
+  .text-area {
+    max-width: 250px;
+  }
+}
